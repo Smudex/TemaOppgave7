@@ -20,14 +20,18 @@ struct CartView: View {
                         Text("Shopping Cart")
                             .bold()
                             .font(.largeTitle)
-                            .position(x: 180, y: 10)
+                            .position(x: 190, y: 10)
                             .foregroundColor(.primary)
+                            
+                    Linje()
                         ListView()
                         //TODO her skal jeg legge in selve total prisen og varer som er lagt til i "kurven"
-                        Text("TOTAL PRIS: 20 Kr")
-                            .position(x: 110, y: 15)
+                    // HER VILLE JEG LAGT INN TOTAL BELØPET, men det rakk jeg ikke.
+                    Text("TOTAL AMOUNT ")
+                            .position(x: 165, y: 15)
                             .background(.yellow)
                             .frame(width: 320, height: 30)
+                            
                         
                 }
             }
@@ -35,7 +39,7 @@ struct CartView: View {
     }
     
 }
-/*
+
 struct Linje: View {
     var body: some View {
         Path { pathTrigle in
@@ -50,7 +54,7 @@ struct Linje: View {
         .foregroundColor(Color.gray)
     }
 }
-*/
+
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
@@ -65,15 +69,16 @@ struct ListView: View {
     
     
     var body: some View {
-        
                 //ForEach (0..<9) { item in
         if let data = viewModel.productData?.items {
             List (data){
                 i in
                 FoodView (foodProduct: i)
             }
-            .frame(width: 400, height: 650)
+            .frame(width: 390, height: 680)
+           
         }
+            
         
     }
         
