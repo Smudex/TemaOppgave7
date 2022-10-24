@@ -9,40 +9,33 @@ import SwiftUI
 
 struct CartView: View {
     
-    //let product: ShoppingCartViewModel
-    
     @StateObject var viewModel = ShoppingCartViewModel()
     
     
     var body: some View {
         GeometryReader { proxyCartView in
             
-            VStack {
-                Text("Shopping Cart")
-                    .bold()
-                    .font(.largeTitle)
-                    .position(x: 180, y: 10)
-                    .foregroundColor(.primary)
-                
-                Linje()
-                
-                ListView()
-                
-                //TODO her skal jeg legge in selve total prisen og varer som er lagt til i "kurven"
-                Text("TOTAL PRIS: 20 Kr")
-                    .position(x: 110, y: 15)
-                    .background(.yellow)
-                    .frame(width: 320, height: 30)
-                
+            HStack {
+                VStack {
+                        Text("Shopping Cart")
+                            .bold()
+                            .font(.largeTitle)
+                            .position(x: 180, y: 10)
+                            .foregroundColor(.primary)
+                        ListView()
+                        //TODO her skal jeg legge in selve total prisen og varer som er lagt til i "kurven"
+                        Text("TOTAL PRIS: 20 Kr")
+                            .position(x: 110, y: 15)
+                            .background(.yellow)
+                            .frame(width: 320, height: 30)
+                        
+                }
             }
-            .padding()
-            
         }
-        
     }
     
 }
-
+/*
 struct Linje: View {
     var body: some View {
         Path { pathTrigle in
@@ -57,6 +50,7 @@ struct Linje: View {
         .foregroundColor(Color.gray)
     }
 }
+*/
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
@@ -67,34 +61,24 @@ struct ContentView_Previews: PreviewProvider {
 
 struct ListView: View {
     
-    @StateObject var viewModel = ShoppingCartViewModel()
+    @ObservedObject var viewModel = ShoppingCartViewModel()
     
     
     var body: some View {
         
-        ScrollView {
-            LazyVGrid(columns: [GridItem()]) {
                 //ForEach (0..<9) { item in
-                ForEach (viewModel.productData, id: \.id) { item in
-                    
-                    FoodView(item: item)
-                    
-                }
+        if let data = viewModel.productData?.items {
+            List (data){
+                i in
+                FoodView (foodProduct: i)
             }
+            .frame(width: 400, height: 650)
         }
-        .onAppear() {
-            Task {
-                do {
-                    print("hello, cart view")
-                    await viewModel.fetchItem()
-                }
-            }
-        }
-        .frame(height: 650, alignment: .center)
-        
         
     }
+        
 }
+    
 
 
 

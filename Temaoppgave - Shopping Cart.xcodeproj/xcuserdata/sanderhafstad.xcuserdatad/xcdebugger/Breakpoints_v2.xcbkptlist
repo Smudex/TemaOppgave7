@@ -8,7 +8,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "F2D17248-83F8-4DE2-9886-B118C7BFFA99"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Temaoppgave - Shopping Cart/dataService/DataService.swift"
@@ -20,113 +20,34 @@
             landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "F2D17248-83F8-4DE2-9886-B118C7BFFA99 - 4d5c11a851eb0a24"
+                  uuid = "F2D17248-83F8-4DE2-9886-B118C7BFFA99 - e1b552713672dd67"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "(3) suspend resume partial function for Temaoppgave___Shopping_Cart.DataService.getRequest(Swift.String) async throws -&gt; Swift.Array&lt;Temaoppgave___Shopping_Cart.ProductItem&gt;"
+                  symbolName = "(3) suspend resume partial function for Temaoppgave___Shopping_Cart.DataService.getRequest(Swift.String) async throws -&gt; Temaoppgave___Shopping_Cart.Main"
                   moduleName = "Temaoppgave - Shopping Cart"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/sanderhafstad/Desktop/Xcode/Temaoppgave%20-%20Shopping%20Cart/Temaoppgave%20-%20Shopping%20Cart/dataService/DataService.swift"
+                  urlString = "file:///Users/sanderhafstad/Desktop/Xcode/TemaOppgave7/Temaoppgave%20-%20Shopping%20Cart/dataService/DataService.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "25"
                   endingLineNumber = "25"
-                  offsetFromSymbolStart = "484">
+                  offsetFromSymbolStart = "480">
                </Location>
                <Location
-                  uuid = "F2D17248-83F8-4DE2-9886-B118C7BFFA99 - 4d5c11a851eb0a24"
+                  uuid = "F2D17248-83F8-4DE2-9886-B118C7BFFA99 - e1b552713672dd67"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "(3) suspend resume partial function for Temaoppgave___Shopping_Cart.DataService.getRequest(Swift.String) async throws -&gt; Swift.Array&lt;Temaoppgave___Shopping_Cart.ProductItem&gt;"
+                  symbolName = "(3) suspend resume partial function for Temaoppgave___Shopping_Cart.DataService.getRequest(Swift.String) async throws -&gt; Temaoppgave___Shopping_Cart.Main"
                   moduleName = "Temaoppgave - Shopping Cart"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/sanderhafstad/Desktop/Xcode/Temaoppgave%20-%20Shopping%20Cart/Temaoppgave%20-%20Shopping%20Cart/dataService/DataService.swift"
+                  urlString = "file:///Users/sanderhafstad/Desktop/Xcode/TemaOppgave7/Temaoppgave%20-%20Shopping%20Cart/dataService/DataService.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "25"
                   endingLineNumber = "25"
-                  offsetFromSymbolStart = "492">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "30B9EEA8-BB90-45D4-9F95-965CF4F71CF7"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Temaoppgave - Shopping Cart/View/CartView.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "88"
-            endingLineNumber = "88"
-            landmarkName = "body"
-            landmarkType = "24">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "C1C2ABBD-C00B-4152-BC1C-71C618A71B87"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Temaoppgave - Shopping Cart/View/CartView.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "89"
-            endingLineNumber = "89"
-            landmarkName = "body"
-            landmarkType = "24">
-            <Locations>
-               <Location
-                  uuid = "C1C2ABBD-C00B-4152-BC1C-71C618A71B87 - b1de6f3c3dfe3d2e"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(1) suspend resume partial function for closure #1 @Sendable () async -&gt; () in closure #2 () -&gt; () in Temaoppgave___Shopping_Cart.ListView.body.getter : some"
-                  moduleName = "Temaoppgave - Shopping Cart"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/sanderhafstad/Desktop/Xcode/Temaoppgave%20-%20Shopping%20Cart/Temaoppgave%20-%20Shopping%20Cart/View/CartView.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "82"
-                  endingLineNumber = "82"
-                  offsetFromSymbolStart = "256">
-               </Location>
-               <Location
-                  uuid = "C1C2ABBD-C00B-4152-BC1C-71C618A71B87 - aac538a02ad6ff2e"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(2) await resume partial function for closure #1 @Sendable () async -&gt; () in closure #2 () -&gt; () in Temaoppgave___Shopping_Cart.ListView.body.getter : some"
-                  moduleName = "Temaoppgave - Shopping Cart"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/sanderhafstad/Desktop/Xcode/Temaoppgave%20-%20Shopping%20Cart/Temaoppgave%20-%20Shopping%20Cart/View/CartView.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "82"
-                  endingLineNumber = "82"
-                  offsetFromSymbolStart = "40">
-               </Location>
-               <Location
-                  uuid = "C1C2ABBD-C00B-4152-BC1C-71C618A71B87 - 222db8d9d7d0f128"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(3) suspend resume partial function for closure #1 @Sendable () async -&gt; () in closure #2 () -&gt; () in Temaoppgave___Shopping_Cart.ListView.body.getter : some"
-                  moduleName = "Temaoppgave - Shopping Cart"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/sanderhafstad/Desktop/Xcode/Temaoppgave%20-%20Shopping%20Cart/Temaoppgave%20-%20Shopping%20Cart/View/CartView.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "82"
-                  endingLineNumber = "82"
-                  offsetFromSymbolStart = "28">
+                  offsetFromSymbolStart = "488">
                </Location>
             </Locations>
          </BreakpointContent>

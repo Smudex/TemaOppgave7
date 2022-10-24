@@ -16,19 +16,19 @@ struct DataService {
     
     private static let host = "https://api.npoint.io/d4e0a014b1cfc5254bcb"
     
-    private func getRequest(_ urlData: String) async throws -> [ProductItem]  {
+    private func getRequest(_ urlData: String) async throws -> Main  {
         if let url = URL(string: urlData) {
             let (data, _) = try await URLSession.shared.data(from: url)
-            let shoppingCartData = try JSONDecoder().decode([ProductItem].self, from: data)
+            let shoppingCartData = try JSONDecoder().decode(Main.self, from: data)
             
-            print(shoppingCartData)
+            //print(shoppingCartData)
             return shoppingCartData
             
         }
         throw NetworkError.dataLoadFailed
     }
     
-    func fetchData() async throws -> [ProductItem] {
+    func fetchData() async throws -> Main {
         let url = DataService.host
         return try await getRequest(url)
     }

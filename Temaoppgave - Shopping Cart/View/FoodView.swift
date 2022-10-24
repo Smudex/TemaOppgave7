@@ -13,73 +13,76 @@ struct FoodView: View {
     
     @State private var Quantity: Int = 0
     
-    let item: ProductItem
+   // let item: ProductItem
+    
+    var foodProduct: Item
+    
     var body: some View {
         
         GeometryReader { proxy in
             VStack {
                 HStack{
-                    AsyncImage(url: URL(string: "https://google.com/favicon.ico"))
+                    AsyncImage(url: URL(string: foodProduct.product.images.first?.thumbnail.url ?? "https://google.com/favicon.ico"))
+                        .frame(width: 50, height: 50)
+                        .clipShape(RoundedRectangle(cornerRadius: 10))
                     
                     VStack{
-                        Text(item.name)
+                        Text(foodProduct.product.name)
                             .foregroundColor(.primary)
                         /*
-                        Text(ProductItem.init(id: UUID, name: "hei", images: <#T##[ItemImage]#>, name_extra: String, gross_price: String, availability: Availability, gross_unit_price: String, unit_price_quantity_abbreviation: String))
-                            .foregroundColor(.black)
+                         Text(ProductItem.init(id: UUID, name: "hei", images: <#T##[ItemImage]#>, name_extra: String, gross_price: String, availability: Availability, gross_unit_price: String, unit_price_quantity_abbreviation: String))
+                         .foregroundColor(.black)
                          */
                         HStack{
-                            Text("banan")
+                            Text(foodProduct.product.nameExtra)
                                 .foregroundColor(.primary)
                         }
                     }
                     Spacer()
                     VStack{
-                        Text("noeeeeeeeeeeeerge")
-                            
+                        Text(foodProduct.product.grossPrice)
+                        
                             .foregroundColor(.primary)
                         
-                        Text("KG")
+                        Text(foodProduct.product.grossUnitPrice)
                             .foregroundColor(.primary)
                     }
                     
-                    Button {
-                        if Quantity > 0 {
-                            Quantity -= 1
+                    
+                    Image(systemName: "minus.circle")
+                        .foregroundColor(.primary)
+                        .font(.title)
+                        .onTapGesture {
+                            if Quantity > 0 {
+                                Quantity -= 1
+                            }
                         }
-                        
-                    } label: {
-                        Image(systemName: "minus.circle")
-                            .foregroundColor(.primary)
-                            .font(.title)
-                    }
-                    
                     
                     Text("\(Quantity)")
                         .font(.caption)
                     
-                    Button {
-                        if Quantity < 99 {
-                            Quantity += 1
+                    Image(systemName: "plus.circle")
+                        .foregroundColor(.primary)
+                        .font(.title)
+                        .onTapGesture {
+                            if Quantity <= 99 {
+                                Quantity += 1
+                            }
                         }
-                    } label: {
-                        Image(systemName: "plus.circle")
-                            .foregroundColor(.primary)
-                            .font(.title)
-                    }
-                    
                     
                 }
+                   
                 
                 
                 .frame(width: proxy.size.width, height: 50)
                 .cornerRadius(10)
             }
-            Path { pathTrigle in
+            /*
+            Path { pathLine in
                 //let hight = 40
                 //let wight = 50
-                pathTrigle.addLines([CGPoint(x: 0, y: 0),
-                                     CGPoint(x: 110, y: 0),
+                pathLine.addLines([CGPoint(x: 0, y: 0),
+                                     CGPoint(x: 1000, y: 0),
                                      CGPoint(x: 1000, y: 1),
                                      CGPoint(x: 0, y: 1)])
                 
@@ -88,7 +91,7 @@ struct FoodView: View {
             }
             .position(x: 0, y: 80)
             .foregroundColor(Color.gray)
-            
+            */
         }
         .frame(height: 50)
         
