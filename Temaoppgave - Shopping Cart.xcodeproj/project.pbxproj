@@ -1,0 +1,662 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F7EF70C28FD424B00A6B28B /* Temaoppgave___Shopping_CartApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7EF70B28FD424B00A6B28B /* Temaoppgave___Shopping_CartApp.swift */; };
+		3F7EF70E28FD424B00A6B28B /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7EF70D28FD424B00A6B28B /* CartView.swift */; };
+		3F7EF71028FD424C00A6B28B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F7EF70F28FD424C00A6B28B /* Assets.xcassets */; };
+		3F7EF71328FD424C00A6B28B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F7EF71228FD424C00A6B28B /* Preview Assets.xcassets */; };
+		3F7EF71D28FD424C00A6B28B /* Temaoppgave___Shopping_CartTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7EF71C28FD424C00A6B28B /* Temaoppgave___Shopping_CartTests.swift */; };
+		3F7EF72728FD424C00A6B28B /* Temaoppgave___Shopping_CartUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7EF72628FD424C00A6B28B /* Temaoppgave___Shopping_CartUITests.swift */; };
+		3F7EF72928FD424C00A6B28B /* Temaoppgave___Shopping_CartUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7EF72828FD424C00A6B28B /* Temaoppgave___Shopping_CartUITestsLaunchTests.swift */; };
+		3F7EF73B28FD467200A6B28B /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7EF73A28FD467200A6B28B /* DataService.swift */; };
+		3F7EF73D28FD4A8C00A6B28B /* ShoppingCartData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7EF73C28FD4A8C00A6B28B /* ShoppingCartData.swift */; };
+		3F7EF73F28FD4E2D00A6B28B /* ShoppingCartViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7EF73E28FD4E2D00A6B28B /* ShoppingCartViewModel.swift */; };
+		3F7EF74128FD702200A6B28B /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7EF74028FD702200A6B28B /* MainView.swift */; };
+		3F7EF74A290171A100A6B28B /* FoodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7EF749290171A100A6B28B /* FoodView.swift */; };
+		3F7EF74C2902D9D200A6B28B /* OrangeButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7EF74B2902D9D200A6B28B /* OrangeButtonView.swift */; };
+		3F7EF74F2905B94B00A6B28B /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7EF74E2905B94B00A6B28B /* LoadingView.swift */; };
+		3F7EF7522905C63800A6B28B /* DarkModeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7EF7512905C63800A6B28B /* DarkModeView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3F7EF71928FD424C00A6B28B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F7EF70028FD424B00A6B28B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F7EF70728FD424B00A6B28B;
+			remoteInfo = "Temaoppgave - Shopping Cart";
+		};
+		3F7EF72328FD424C00A6B28B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F7EF70028FD424B00A6B28B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F7EF70728FD424B00A6B28B;
+			remoteInfo = "Temaoppgave - Shopping Cart";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3F7EF70828FD424B00A6B28B /* Temaoppgave - Shopping Cart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Temaoppgave - Shopping Cart.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F7EF70B28FD424B00A6B28B /* Temaoppgave___Shopping_CartApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Temaoppgave___Shopping_CartApp.swift"; sourceTree = "<group>"; };
+		3F7EF70D28FD424B00A6B28B /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
+		3F7EF70F28FD424C00A6B28B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F7EF71228FD424C00A6B28B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3F7EF71828FD424C00A6B28B /* Temaoppgave - Shopping CartTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Temaoppgave - Shopping CartTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F7EF71C28FD424C00A6B28B /* Temaoppgave___Shopping_CartTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Temaoppgave___Shopping_CartTests.swift"; sourceTree = "<group>"; };
+		3F7EF72228FD424C00A6B28B /* Temaoppgave - Shopping CartUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Temaoppgave - Shopping CartUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F7EF72628FD424C00A6B28B /* Temaoppgave___Shopping_CartUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Temaoppgave___Shopping_CartUITests.swift"; sourceTree = "<group>"; };
+		3F7EF72828FD424C00A6B28B /* Temaoppgave___Shopping_CartUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Temaoppgave___Shopping_CartUITestsLaunchTests.swift"; sourceTree = "<group>"; };
+		3F7EF73A28FD467200A6B28B /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		3F7EF73C28FD4A8C00A6B28B /* ShoppingCartData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingCartData.swift; sourceTree = "<group>"; };
+		3F7EF73E28FD4E2D00A6B28B /* ShoppingCartViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingCartViewModel.swift; sourceTree = "<group>"; };
+		3F7EF74028FD702200A6B28B /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		3F7EF749290171A100A6B28B /* FoodView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodView.swift; sourceTree = "<group>"; };
+		3F7EF74B2902D9D200A6B28B /* OrangeButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrangeButtonView.swift; sourceTree = "<group>"; };
+		3F7EF74E2905B94B00A6B28B /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		3F7EF7512905C63800A6B28B /* DarkModeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkModeView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F7EF70528FD424B00A6B28B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F7EF71528FD424C00A6B28B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F7EF71F28FD424C00A6B28B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F7EF6FF28FD424B00A6B28B = {
+			isa = PBXGroup;
+			children = (
+				3F7EF70A28FD424B00A6B28B /* Temaoppgave - Shopping Cart */,
+				3F7EF71B28FD424C00A6B28B /* Temaoppgave - Shopping CartTests */,
+				3F7EF72528FD424C00A6B28B /* Temaoppgave - Shopping CartUITests */,
+				3F7EF70928FD424B00A6B28B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F7EF70928FD424B00A6B28B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F7EF70828FD424B00A6B28B /* Temaoppgave - Shopping Cart.app */,
+				3F7EF71828FD424C00A6B28B /* Temaoppgave - Shopping CartTests.xctest */,
+				3F7EF72228FD424C00A6B28B /* Temaoppgave - Shopping CartUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F7EF70A28FD424B00A6B28B /* Temaoppgave - Shopping Cart */ = {
+			isa = PBXGroup;
+			children = (
+				3F7EF70B28FD424B00A6B28B /* Temaoppgave___Shopping_CartApp.swift */,
+				3F7EF73928FD460200A6B28B /* dataService */,
+				3F7EF73828FD45D100A6B28B /* View */,
+				3F7EF73728FD45C700A6B28B /* ViewModel */,
+				3F7EF73628FD45BE00A6B28B /* Model */,
+				3F7EF70F28FD424C00A6B28B /* Assets.xcassets */,
+				3F7EF71128FD424C00A6B28B /* Preview Content */,
+			);
+			path = "Temaoppgave - Shopping Cart";
+			sourceTree = "<group>";
+		};
+		3F7EF71128FD424C00A6B28B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3F7EF71228FD424C00A6B28B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3F7EF71B28FD424C00A6B28B /* Temaoppgave - Shopping CartTests */ = {
+			isa = PBXGroup;
+			children = (
+				3F7EF71C28FD424C00A6B28B /* Temaoppgave___Shopping_CartTests.swift */,
+			);
+			path = "Temaoppgave - Shopping CartTests";
+			sourceTree = "<group>";
+		};
+		3F7EF72528FD424C00A6B28B /* Temaoppgave - Shopping CartUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3F7EF72628FD424C00A6B28B /* Temaoppgave___Shopping_CartUITests.swift */,
+				3F7EF72828FD424C00A6B28B /* Temaoppgave___Shopping_CartUITestsLaunchTests.swift */,
+			);
+			path = "Temaoppgave - Shopping CartUITests";
+			sourceTree = "<group>";
+		};
+		3F7EF73628FD45BE00A6B28B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3F7EF73C28FD4A8C00A6B28B /* ShoppingCartData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3F7EF73728FD45C700A6B28B /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				3F7EF73E28FD4E2D00A6B28B /* ShoppingCartViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		3F7EF73828FD45D100A6B28B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3F7EF70D28FD424B00A6B28B /* CartView.swift */,
+				3F7EF74028FD702200A6B28B /* MainView.swift */,
+				3F7EF749290171A100A6B28B /* FoodView.swift */,
+				3F7EF74B2902D9D200A6B28B /* OrangeButtonView.swift */,
+				3F7EF7502905C60A00A6B28B /* DarkMode */,
+				3F7EF74D2905B90400A6B28B /* loadingView */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3F7EF73928FD460200A6B28B /* dataService */ = {
+			isa = PBXGroup;
+			children = (
+				3F7EF73A28FD467200A6B28B /* DataService.swift */,
+			);
+			path = dataService;
+			sourceTree = "<group>";
+		};
+		3F7EF74D2905B90400A6B28B /* loadingView */ = {
+			isa = PBXGroup;
+			children = (
+				3F7EF74E2905B94B00A6B28B /* LoadingView.swift */,
+			);
+			path = loadingView;
+			sourceTree = "<group>";
+		};
+		3F7EF7502905C60A00A6B28B /* DarkMode */ = {
+			isa = PBXGroup;
+			children = (
+				3F7EF7512905C63800A6B28B /* DarkModeView.swift */,
+			);
+			path = DarkMode;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F7EF70728FD424B00A6B28B /* Temaoppgave - Shopping Cart */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F7EF72C28FD424C00A6B28B /* Build configuration list for PBXNativeTarget "Temaoppgave - Shopping Cart" */;
+			buildPhases = (
+				3F7EF70428FD424B00A6B28B /* Sources */,
+				3F7EF70528FD424B00A6B28B /* Frameworks */,
+				3F7EF70628FD424B00A6B28B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Temaoppgave - Shopping Cart";
+			productName = "Temaoppgave - Shopping Cart";
+			productReference = 3F7EF70828FD424B00A6B28B /* Temaoppgave - Shopping Cart.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3F7EF71728FD424C00A6B28B /* Temaoppgave - Shopping CartTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F7EF72F28FD424C00A6B28B /* Build configuration list for PBXNativeTarget "Temaoppgave - Shopping CartTests" */;
+			buildPhases = (
+				3F7EF71428FD424C00A6B28B /* Sources */,
+				3F7EF71528FD424C00A6B28B /* Frameworks */,
+				3F7EF71628FD424C00A6B28B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F7EF71A28FD424C00A6B28B /* PBXTargetDependency */,
+			);
+			name = "Temaoppgave - Shopping CartTests";
+			productName = "Temaoppgave - Shopping CartTests";
+			productReference = 3F7EF71828FD424C00A6B28B /* Temaoppgave - Shopping CartTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3F7EF72128FD424C00A6B28B /* Temaoppgave - Shopping CartUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F7EF73228FD424C00A6B28B /* Build configuration list for PBXNativeTarget "Temaoppgave - Shopping CartUITests" */;
+			buildPhases = (
+				3F7EF71E28FD424C00A6B28B /* Sources */,
+				3F7EF71F28FD424C00A6B28B /* Frameworks */,
+				3F7EF72028FD424C00A6B28B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F7EF72428FD424C00A6B28B /* PBXTargetDependency */,
+			);
+			name = "Temaoppgave - Shopping CartUITests";
+			productName = "Temaoppgave - Shopping CartUITests";
+			productReference = 3F7EF72228FD424C00A6B28B /* Temaoppgave - Shopping CartUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F7EF70028FD424B00A6B28B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					3F7EF70728FD424B00A6B28B = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					3F7EF71728FD424C00A6B28B = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 3F7EF70728FD424B00A6B28B;
+					};
+					3F7EF72128FD424C00A6B28B = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 3F7EF70728FD424B00A6B28B;
+					};
+				};
+			};
+			buildConfigurationList = 3F7EF70328FD424B00A6B28B /* Build configuration list for PBXProject "Temaoppgave - Shopping Cart" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F7EF6FF28FD424B00A6B28B;
+			productRefGroup = 3F7EF70928FD424B00A6B28B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F7EF70728FD424B00A6B28B /* Temaoppgave - Shopping Cart */,
+				3F7EF71728FD424C00A6B28B /* Temaoppgave - Shopping CartTests */,
+				3F7EF72128FD424C00A6B28B /* Temaoppgave - Shopping CartUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F7EF70628FD424B00A6B28B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F7EF71328FD424C00A6B28B /* Preview Assets.xcassets in Resources */,
+				3F7EF71028FD424C00A6B28B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F7EF71628FD424C00A6B28B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F7EF72028FD424C00A6B28B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F7EF70428FD424B00A6B28B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F7EF73F28FD4E2D00A6B28B /* ShoppingCartViewModel.swift in Sources */,
+				3F7EF7522905C63800A6B28B /* DarkModeView.swift in Sources */,
+				3F7EF74128FD702200A6B28B /* MainView.swift in Sources */,
+				3F7EF74A290171A100A6B28B /* FoodView.swift in Sources */,
+				3F7EF73B28FD467200A6B28B /* DataService.swift in Sources */,
+				3F7EF74C2902D9D200A6B28B /* OrangeButtonView.swift in Sources */,
+				3F7EF73D28FD4A8C00A6B28B /* ShoppingCartData.swift in Sources */,
+				3F7EF70E28FD424B00A6B28B /* CartView.swift in Sources */,
+				3F7EF70C28FD424B00A6B28B /* Temaoppgave___Shopping_CartApp.swift in Sources */,
+				3F7EF74F2905B94B00A6B28B /* LoadingView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F7EF71428FD424C00A6B28B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F7EF71D28FD424C00A6B28B /* Temaoppgave___Shopping_CartTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F7EF71E28FD424C00A6B28B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F7EF72928FD424C00A6B28B /* Temaoppgave___Shopping_CartUITestsLaunchTests.swift in Sources */,
+				3F7EF72728FD424C00A6B28B /* Temaoppgave___Shopping_CartUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F7EF71A28FD424C00A6B28B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F7EF70728FD424B00A6B28B /* Temaoppgave - Shopping Cart */;
+			targetProxy = 3F7EF71928FD424C00A6B28B /* PBXContainerItemProxy */;
+		};
+		3F7EF72428FD424C00A6B28B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F7EF70728FD424B00A6B28B /* Temaoppgave - Shopping Cart */;
+			targetProxy = 3F7EF72328FD424C00A6B28B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3F7EF72A28FD424C00A6B28B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3F7EF72B28FD424C00A6B28B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F7EF72D28FD424C00A6B28B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Temaoppgave - Shopping Cart/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "HomeWork.Temaoppgave---Shopping-Cart";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3F7EF72E28FD424C00A6B28B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Temaoppgave - Shopping Cart/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "HomeWork.Temaoppgave---Shopping-Cart";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3F7EF73028FD424C00A6B28B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "HomeWork.Temaoppgave---Shopping-CartTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Temaoppgave - Shopping Cart.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Temaoppgave - Shopping Cart";
+			};
+			name = Debug;
+		};
+		3F7EF73128FD424C00A6B28B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "HomeWork.Temaoppgave---Shopping-CartTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Temaoppgave - Shopping Cart.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Temaoppgave - Shopping Cart";
+			};
+			name = Release;
+		};
+		3F7EF73328FD424C00A6B28B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "HomeWork.Temaoppgave---Shopping-CartUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Temaoppgave - Shopping Cart";
+			};
+			name = Debug;
+		};
+		3F7EF73428FD424C00A6B28B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "HomeWork.Temaoppgave---Shopping-CartUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Temaoppgave - Shopping Cart";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F7EF70328FD424B00A6B28B /* Build configuration list for PBXProject "Temaoppgave - Shopping Cart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F7EF72A28FD424C00A6B28B /* Debug */,
+				3F7EF72B28FD424C00A6B28B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F7EF72C28FD424C00A6B28B /* Build configuration list for PBXNativeTarget "Temaoppgave - Shopping Cart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F7EF72D28FD424C00A6B28B /* Debug */,
+				3F7EF72E28FD424C00A6B28B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F7EF72F28FD424C00A6B28B /* Build configuration list for PBXNativeTarget "Temaoppgave - Shopping CartTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F7EF73028FD424C00A6B28B /* Debug */,
+				3F7EF73128FD424C00A6B28B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F7EF73228FD424C00A6B28B /* Build configuration list for PBXNativeTarget "Temaoppgave - Shopping CartUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F7EF73328FD424C00A6B28B /* Debug */,
+				3F7EF73428FD424C00A6B28B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F7EF70028FD424B00A6B28B /* Project object */;
+}
