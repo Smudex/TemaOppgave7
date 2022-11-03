@@ -11,9 +11,9 @@ struct FoodView: View {
     
     @StateObject private var viewModel = ShoppingCartViewModel()
     
-    @State private var Quantity: Int = 0
+    @State private var quantity: Int = 0
     
-   // let item: ProductItem
+    // let item: ProductItem
     
     var foodProduct: Item
     
@@ -22,9 +22,12 @@ struct FoodView: View {
         GeometryReader { proxy in
             VStack {
                 HStack{
-                    AsyncImage(url: URL(string: foodProduct.product.images.first?.thumbnail.url ?? "https://google.com/favicon.ico"))
-                        .frame(width: 50, height: 50)
-                        .clipShape(RoundedRectangle(cornerRadius: 10))
+                    AsyncImage(url: URL(string: foodProduct.product.images.first?.thumbnail.url ?? "https://google.com/favicon.ico")){ image in
+                        image.image?.resizable()
+                            .aspectRatio(contentMode: .fit)
+                    }
+                    .frame(width: 50, height: 50)
+                    
                     
                     VStack{
                         Text(foodProduct.product.name)
@@ -53,45 +56,46 @@ struct FoodView: View {
                         .foregroundColor(.primary)
                         .font(.title)
                         .onTapGesture {
-                            if Quantity > 0 {
-                                Quantity -= 1
+                            if quantity > 0 {
+                                quantity -= 1
                             }
                         }
                     
-                    Text("\(Quantity)")
+                    Text("\(quantity)")
                         .font(.caption)
                     
                     Image(systemName: "plus.circle")
                         .foregroundColor(.primary)
                         .font(.title)
                         .onTapGesture {
-                            if Quantity <= 99 {
-                                Quantity += 1
+                            if quantity <= 99 {
+                                quantity += 1
                             }
                         }
                     
                 }
-                   
+                
                 
                 
                 .frame(width: proxy.size.width, height: 50)
                 .cornerRadius(10)
+                Divider()
             }
             /*
-            Path { pathLine in
-                //let hight = 40
-                //let wight = 50
-                pathLine.addLines([CGPoint(x: 0, y: 0),
-                                     CGPoint(x: 1000, y: 0),
-                                     CGPoint(x: 1000, y: 1),
-                                     CGPoint(x: 0, y: 1)])
-                
-                
-                
-            }
-            .position(x: 0, y: 80)
-            .foregroundColor(Color.gray)
-            */
+             Path { pathLine in
+             //let hight = 40
+             //let wight = 50
+             pathLine.addLines([CGPoint(x: 0, y: 0),
+             CGPoint(x: 1000, y: 0),
+             CGPoint(x: 1000, y: 1),
+             CGPoint(x: 0, y: 1)])
+             
+             
+             
+             }
+             .position(x: 0, y: 80)
+             .foregroundColor(Color.gray)
+             */
         }
         .frame(height: 50)
         

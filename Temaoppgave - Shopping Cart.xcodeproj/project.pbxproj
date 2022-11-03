@@ -22,6 +22,7 @@
 		3F7EF74C2902D9D200A6B28B /* OrangeButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7EF74B2902D9D200A6B28B /* OrangeButtonView.swift */; };
 		3F7EF74F2905B94B00A6B28B /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7EF74E2905B94B00A6B28B /* LoadingView.swift */; };
 		3F7EF7522905C63800A6B28B /* DarkModeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7EF7512905C63800A6B28B /* DarkModeView.swift */; };
+		3FF6F0AC290D6961001D26BA /* FoodView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF6F0AB290D6961001D26BA /* FoodView2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,7 @@
 		3F7EF74B2902D9D200A6B28B /* OrangeButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrangeButtonView.swift; sourceTree = "<group>"; };
 		3F7EF74E2905B94B00A6B28B /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 		3F7EF7512905C63800A6B28B /* DarkModeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkModeView.swift; sourceTree = "<group>"; };
+		3FF6F0AB290D6961001D26BA /* FoodView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodView2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -168,6 +170,7 @@
 				3F7EF70D28FD424B00A6B28B /* CartView.swift */,
 				3F7EF74028FD702200A6B28B /* MainView.swift */,
 				3F7EF749290171A100A6B28B /* FoodView.swift */,
+				3FF6F0AB290D6961001D26BA /* FoodView2.swift */,
 				3F7EF74B2902D9D200A6B28B /* OrangeButtonView.swift */,
 				3F7EF7502905C60A00A6B28B /* DarkMode */,
 				3F7EF74D2905B90400A6B28B /* loadingView */,
@@ -330,6 +333,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F7EF73F28FD4E2D00A6B28B /* ShoppingCartViewModel.swift in Sources */,
+				3FF6F0AC290D6961001D26BA /* FoodView2.swift in Sources */,
 				3F7EF7522905C63800A6B28B /* DarkModeView.swift in Sources */,
 				3F7EF74128FD702200A6B28B /* MainView.swift in Sources */,
 				3F7EF74A290171A100A6B28B /* FoodView.swift in Sources */,

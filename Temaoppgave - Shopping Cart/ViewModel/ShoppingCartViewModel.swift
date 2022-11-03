@@ -18,7 +18,7 @@ class ShoppingCartViewModel: ObservableObject {
     
     private var dataService = DataService()
     
-    @Published var productData: Main? = nil
+    @Published var productData: [Item] = [Item]()
     
     @Published var isLoading = false
     
@@ -42,17 +42,16 @@ class ShoppingCartViewModel: ObservableObject {
         }
     }
     
-    func sendRequest() async throws -> Main {
-        return try await dataService.fetchData()
-    }
+//    func sendRequest() async throws -> Main {
+//        return try await
+//    }
     
     
     
     @MainActor func fetchItem() {
         Task{
             do {
-                productData = try await sendRequest()
-              //  productData = try await dataService.fetchData()
+                productData = try await dataService.fetchData()
                 print(productData)
             }
             catch {
